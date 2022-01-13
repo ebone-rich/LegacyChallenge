@@ -1,5 +1,6 @@
 import React from 'react';
 import {Container} from 'reactstrap';
+import ToDoForm from './ToDoForm';
 
 const ToDo = () => {
   return(
@@ -24,6 +25,7 @@ const ToDo = () => {
          </li>
        </ul>
        <hr />
+       <ToDoForm />
      </Container>
   );
 };
